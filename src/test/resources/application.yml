@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: ${spring.data.mongodb.uri}
+      database: pet
+
+logging:
+  level:
+    org.springframework.http: TRACE
